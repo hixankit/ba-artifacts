@@ -1,0 +1,57 @@
+BUSINESS REQUIREMENTS DOCUMENT — STRUCTURE
+(Adapted from FONT BRD v1.0 template)
+
+1. INTRODUCTION
+   1.1 Purpose
+   1.2 Scope
+   1.3 Audience
+   1.4 References
+   1.5 Acronyms, Terms and Definitions
+
+2. PROJECT DRIVERS
+   2.1 Purpose of the application
+   2.2 Client, Customer and other Stakeholders
+   2.3 Users of the Application
+   2.4 Key success factors
+
+3. CONSTRAINTS
+   3.1 Constraints
+   3.2 Assumptions and Dependencies
+
+4. CURRENT STATE — WHERE ARE WE NOW?
+   4.1 Stakeholder Problem and Desired State Capture
+   4.2 Overview of current business environment
+   4.3 Stakeholder Profiles
+
+5. FUNCTIONAL REQUIREMENTS
+   5.1 Scope of work (in scope / out of scope)
+   5.2 Scope of the Application (Use Cases)
+   5.3 Functional and Data Requirements
+   5.4 Requirements Summary
+   5.5 How requirements are organised (unique ID, numbered, PASS/FAIL testable)
+   5.6 Requirement priorities (Must / Should / Could / Future / Business Process)
+   5.7 Core Functions — each with: description, rationale, requirement table (ID, statement,
+       priority), PASS/FAIL acceptance criteria
+
+6. NON-FUNCTIONAL REQUIREMENTS
+   Audit | Security | Privacy & Confidentiality | User Access | Usability |
+   Health & Safety/Ergonomics | Internationalisation | Integration | Performance |
+   Availability/Reliability/Backup & Recovery | Supportability | Volumes
+
+7. BUSINESS IMPLEMENTATION REQUIREMENTS
+   7.1 Issues (Open Issues, New Problems, Deferred Requirements, Ideas for Solutions)
+   7.2 Management Issues (Impact on existing units, Data ownership)
+   7.3 User Training
+   7.4 Requirement priorities (implementation order)
+   7.5 Data conversion
+   7.6 Delivery issues
+   7.7 Migration and cutover
+
+8. ANNEXURES
+   8.1 Requirements Shell for Reference
+   8.2 Use Case Template
+   8.3 Activity Diagram notes
+
+NOTE FOR brd-agent: this structure informs the CONTENT and completeness of business_rules.json,
+brd.json, and open_questions.json — you are not producing a literal copy of this outline, you are
+making sure nothing important from it is missed in your structured JSON output.
