@@ -1,0 +1,9 @@
+{
+  "rules": [
+    {
+      "id": "BR-001",
+      "rule": "To be defined — charter.md and scope_agreement.md are unfilled templates",
+      "source": "inferred"
+    }
+  ]
+}

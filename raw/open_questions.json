@@ -1,0 +1,14 @@
+{
+  "open_questions": [
+    {
+      "id": "OQ-01",
+      "question": "charter.md is an unfilled template — project name, background, goals, users, core functions, business rules, and constraints are all missing. What is this project?",
+      "blocks": ["BR-001"]
+    },
+    {
+      "id": "OQ-02",
+      "question": "scope_agreement.md is an unfilled template — in-scope features, out-of-scope items, and priority order are all missing. What is being built in this phase?",
+      "blocks": ["BR-001"]
+    }
+  ]
+}
