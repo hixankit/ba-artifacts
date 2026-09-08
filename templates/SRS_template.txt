@@ -1,0 +1,55 @@
+SOFTWARE REQUIREMENTS SPECIFICATION — STRUCTURE
+(Adapted from FONT SRS v1.0 template)
+
+1. INTRODUCTION
+   1.1 Purpose
+   1.2 Scope
+   1.3 Overview of the Document
+
+2. SYSTEM CONTEXT
+   2.1 Product Perspective
+   2.2 System Overview & Context
+   2.3 Operational Concepts and Scenarios
+   2.4 System Interface (User / Hardware / Software / Communication)
+   2.5 Memory Constraints
+   2.6 Operations
+   2.7 Site Adaptation Requirements
+   2.8 Product Functions
+
+3. CONSTRAINTS
+   3.1 Constraints
+   3.2 Assumptions and Dependencies
+   3.3 Apportioning of Requirements
+
+4. SPECIFIC REQUIREMENTS
+   4.1 Organizational Requirements (Business + User Requirements)
+   4.2 External Interface Requirements
+   4.3 Functional Requirements / System Features (unique ID, traces to a BRD rule/FR, inputs,
+       processing, outputs, acceptance criteria)
+   4.4 Performance Requirements
+   4.5 Acceptance Criteria
+   4.6 Logical Database Requirements (entities, fields, types, formats)
+   4.7 Design Constraints
+   4.8 Testing Requirements
+   4.9 Compliance to Standards
+
+5. SOFTWARE SYSTEM ATTRIBUTES
+   Reliability | Availability | Safety | Environmental | Security (input validation, internal
+   processing, output validation) | Maintainability | Portability | Installability | Usability
+
+6. ORGANIZING SPECIFIC REQUIREMENTS
+   6.1 System Mode / User Class / Objects / Features
+   6.2 Implementation schedule
+   6.3 Acceptance
+   6.4 Derived Requirements
+
+7. VALIDATION
+   7.1 Validation strategy
+   7.2 Validation criteria
+   7.3 Validation Constraints
+
+8. REFERENCES
+
+NOTE FOR frd-agent: this structure informs the CONTENT and completeness of frd.json, data_spec.json,
+and error_catalogue.json — every functional requirement (4.3) needs a data_spec entity behind it and
+should anticipate the error_catalogue entries that come from validating it.
